@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Crie QR Codes personalizados em segundos com nosso gerador gratuito. Rápido, responsivo e pronto para baixar em PNG." />
+  <meta name="keywords" content="gerador, qr code, qr, gratuito, baixar, png" />
+  <title>Gerador de QR Code Gratuito | Crie e Baixe em PNG</title>
+  <link rel="icon" href="favicon.png" />
+  <!-- Google AdSense: substitua 'SEU-ID-ADSENSE' pelo seu ID real -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=SEU-ID-ADSENSE" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- Top AdSense banner -->
+    <div class="adsense ad-top">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+        data-ad-client="SEU-ID-ADSENSE"
+        data-ad-slot="1234567890"></ins>
+    </div>
+
+    <main class="card">
+      <header>
+        <p class="eyebrow">Ferramenta rápida e segura</p>
+        <h1>Gerador de QR Code Gratuito</h1>
+        <p class="subline">Cole o texto ou URL, gere instantaneamente e baixe em PNG.</p>
+      </header>
+
+      <form id="qrForm" class="form">
+        <label class="input-label" for="qrInput">Texto ou URL</label>
+        <textarea id="qrInput" placeholder="https://seusite.com" rows="3"></textarea>
+        <button type="submit" class="primary">Gerar QR Code</button>
+      </form>
+
+      <section class="qr-section">
+        <div id="qrcode" class="qr-code" aria-live="polite"></div>
+        <div class="qr-actions">
+          <button id="downloadBtn" class="secondary" disabled>Baixar QR Code</button>
+          <p id="status" class="status">Insira um texto para gerar o QR Code.</p>
+        </div>
+      </section>
+
+      <!-- AdSense banner abaixo do QR Code -->
+      <div class="adsense ad-middle">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>QR Code gerado localmente, nenhum dado é armazenado.</p>
+      <!-- AdSense banner no rodapé -->
+      <div class="adsense ad-footer">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Biblioteca QRCode.js via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
