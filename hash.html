@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Gerador de hash MD5/SHA com suporte a múltiplos algoritmos e macros para comparar textos." />
+  <title>Gerador de hash MD5 / SHA</title>
+  <link rel="icon" href="favicon.png" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=SEU-ID-ADSENSE" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="hero">
+      <p class="eyebrow">Hashes</p>
+      <h1>Gerador de hash MD5 / SHA</h1>
+      <p class="subline">Algoritmos MD5, SHA-1, SHA-256, SHA-384 e SHA-512 com resultado pronto para copiar.</p>
+      <div class="hero-actions">
+        <a class="secondary" href="index.html">Voltar ao hub</a>
+      </div>
+    </header>
+
+    <div class="adsense ad-top">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+        data-ad-client="SEU-ID-ADSENSE"
+        data-ad-slot="1234567890"></ins>
+    </div>
+
+    <main class="tool-card">
+      <div class="tool-header">
+        <h2>Hash em segundos</h2>
+        <p>Insira o texto, escolha o algoritmo e copie o hash.</p>
+      </div>
+
+      <form id="hashForm" class="tool-form">
+        <label class="input-label" for="hashInput">Texto de origem</label>
+        <textarea id="hashInput" placeholder="Digite qualquer texto aqui" rows="3"></textarea>
+        <div class="input-row">
+          <label for="hashAlgorithm">Algoritmo</label>
+          <select id="hashAlgorithm">
+            <option value="MD5">MD5</option>
+            <option value="SHA-1">SHA-1</option>
+            <option value="SHA-256" selected>SHA-256</option>
+            <option value="SHA-384">SHA-384</option>
+            <option value="SHA-512">SHA-512</option>
+          </select>
+          <button type="submit" class="primary">Gerar hash</button>
+        </div>
+      </form>
+
+      <div class="tool-output">
+        <textarea id="hashResult" readonly rows="2" placeholder="Hash aparecerá aqui"></textarea>
+        <button type="button" id="copyHash" class="secondary" disabled>Copiar hash</button>
+      </div>
+
+      <div class="adsense ad-tool">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Os hashes são calculados localmente, não há envio externo.</p>
+      <div class="adsense ad-footer">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
+    integrity="sha512-GO3U3kZjn5A5qNfU+4RtbGfxcGwlH1R/xjNk3t/G0eLfiQyRg+6EE8X5pEv6Wl7vnwX9yZ8G0X0YzElGKE4DUw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>

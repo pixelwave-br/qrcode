@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Corte imagens definindo largura e altura desejadas com preview e download." />
+  <title>Cortador de imagem</title>
+  <link rel="icon" href="favicon.png" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=SEU-ID-ADSENSE" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="hero">
+      <p class="eyebrow">Cortador</p>
+      <h1>Cortador de imagem</h1>
+      <p class="subline">Selecione área central com dimensões personalizadas.</p>
+      <div class="hero-actions">
+        <a class="secondary" href="index.html">Voltar ao hub</a>
+      </div>
+    </header>
+
+    <div class="adsense ad-top">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+        data-ad-client="SEU-ID-ADSENSE"
+        data-ad-slot="1234567890"></ins>
+    </div>
+
+    <main class="tool-card">
+      <div class="tool-header">
+        <h2>Área central</h2>
+        <p>Corte uniformemente ao redor do centro conforme largura e altura.</p>
+      </div>
+
+      <form class="tool-form">
+        <label class="input-label" for="cutterFile">Imagem</label>
+        <input type="file" id="cutterFile" accept="image/*" />
+        <div class="input-row">
+          <label for="cutterWidth">Largura final (px)</label>
+          <input type="number" id="cutterWidth" min="10" max="4000" placeholder="800" />
+        </div>
+        <div class="input-row">
+          <label for="cutterHeight">Altura final (px)</label>
+          <input type="number" id="cutterHeight" min="10" max="4000" placeholder="600" />
+        </div>
+        <button type="button" id="cropImage" class="primary">Cortar imagem</button>
+      </form>
+
+      <div class="image-preview" id="cutterPreview">
+        <p class="status">Corte pronto aparecerá aqui.</p>
+      </div>
+
+      <div class="tool-actions">
+        <button type="button" id="downloadCutter" class="secondary" disabled>Baixar corte</button>
+      </div>
+
+      <div class="adsense ad-tool">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Tudo é feito no navegador; nada é enviado.</p>
+      <div class="adsense ad-footer">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

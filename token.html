@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Gerador de tokens aleatórios base64-url com tamanho configurável." />
+  <title>Gerador de token aleatório</title>
+  <link rel="icon" href="favicon.png" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=SEU-ID-ADSENSE" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="hero">
+      <p class="eyebrow">Token aleatório</p>
+      <h1>Gerador de token base64-url</h1>
+      <p class="subline">Escolha o comprimento e gere tokens limpos para autenticação.</p>
+      <div class="hero-actions">
+        <a class="secondary" href="index.html">Voltar ao hub</a>
+      </div>
+    </header>
+
+    <div class="adsense ad-top">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+        data-ad-client="SEU-ID-ADSENSE"
+        data-ad-slot="1234567890"></ins>
+    </div>
+
+    <main class="tool-card">
+      <div class="tool-header">
+        <h2>Tokens limpos</h2>
+        <p>Tokens gerados com crypto.getRandomValues e codificação base64-url.</p>
+      </div>
+
+      <div class="input-row">
+        <label for="tokenLength">Comprimento (24 a 128 caracteres)</label>
+        <input type="number" id="tokenLength" min="24" max="128" value="48" />
+      </div>
+
+      <div class="tool-actions">
+        <button type="button" id="generateToken" class="primary">Gerar token</button>
+        <button type="button" id="copyToken" class="secondary" disabled>Copiar token</button>
+      </div>
+
+      <div class="tool-output">
+        <textarea id="tokenOutput" readonly rows="2" placeholder="Token gerado aparecerá aqui"></textarea>
+      </div>
+
+      <div class="adsense ad-tool">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Os tokens são calculados localmente, sem armazenar nada fora do navegador.</p>
+      <div class="adsense ad-footer">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

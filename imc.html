@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Calculadora de IMC com classificação oficial para adulto." />
+  <title>Calculadora de IMC</title>
+  <link rel="icon" href="favicon.png" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=SEU-ID-ADSENSE" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="hero">
+      <p class="eyebrow">IMC</p>
+      <h1>Calculadora de IMC</h1>
+      <p class="subline">Informe peso e altura e receba o índice com classificação.</p>
+      <div class="hero-actions">
+        <a class="secondary" href="index.html">Voltar ao hub</a>
+      </div>
+    </header>
+
+    <div class="adsense ad-top">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+        data-ad-client="SEU-ID-ADSENSE"
+        data-ad-slot="1234567890"></ins>
+    </div>
+
+    <main class="tool-card">
+      <div class="tool-header">
+        <h2>Índice de massa corporal</h2>
+        <p>Baseado nos parâmetros oficiais da OMS.</p>
+      </div>
+
+      <form id="bmiForm" class="tool-form">
+        <div class="input-row">
+          <label for="weightInput">Peso (kg)</label>
+          <input type="number" id="weightInput" step="0.1" min="1" placeholder="70" />
+        </div>
+        <div class="input-row">
+          <label for="heightInput">Altura (cm)</label>
+          <input type="number" id="heightInput" step="0.1" min="50" placeholder="175" />
+        </div>
+        <button type="button" id="calculateBmi" class="primary">Calcular IMC</button>
+      </form>
+
+      <div class="result-grid">
+        <article>
+          <h3 id="bmiValue">0,00</h3>
+          <p>IMC</p>
+        </article>
+        <article>
+          <h3 id="bmiCategory">Não calculado</h3>
+          <p>Classificação</p>
+        </article>
+      </div>
+
+      <div class="adsense ad-tool">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Baseado em fórmulas públicas; use como referência.</p>
+      <div class="adsense ad-footer">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

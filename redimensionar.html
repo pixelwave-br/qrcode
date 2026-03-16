@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Redimensione imagens mantendo proporcionalidade ou definindo dimensões livres." />
+  <title>Redimensionar imagem</title>
+  <link rel="icon" href="favicon.png" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=SEU-ID-ADSENSE" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="hero">
+      <p class="eyebrow">Redimensionar</p>
+      <h1>Redimensionar imagem</h1>
+      <p class="subline">Informe novas dimensões e mantenha a proporção com facilidade.</p>
+      <div class="hero-actions">
+        <a class="secondary" href="index.html">Voltar ao hub</a>
+      </div>
+    </header>
+
+    <div class="adsense ad-top">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+        data-ad-client="SEU-ID-ADSENSE"
+        data-ad-slot="1234567890"></ins>
+    </div>
+
+    <main class="tool-card">
+      <div class="tool-header">
+        <h2>Novas dimensões</h2>
+        <p>Ajuste largura ou altura e mantenha a proporção original, se preferir.</p>
+      </div>
+
+      <form class="tool-form">
+        <label class="input-label" for="resizeFile">Imagem</label>
+        <input type="file" id="resizeFile" accept="image/*" />
+        <div class="input-row">
+          <label for="resizeWidth">Largura (px)</label>
+          <input type="number" id="resizeWidth" min="10" />
+        </div>
+        <div class="input-row">
+          <label for="resizeHeight">Altura (px)</label>
+          <input type="number" id="resizeHeight" min="10" />
+        </div>
+        <label class="checkbox-label"><input type="checkbox" id="keepAspect" checked /> Manter proporção</label>
+        <button type="button" id="resizeImage" class="primary">Redimensionar</button>
+      </form>
+
+      <div class="image-preview" id="resizePreview">
+        <p class="status">Resultado pronto aparecerá aqui.</p>
+      </div>
+
+      <div class="tool-actions">
+        <button type="button" id="downloadResize" class="secondary" disabled>Baixar imagem</button>
+      </div>
+
+      <div class="adsense ad-tool">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Processamento local para preservar privacidade.</p>
+      <div class="adsense ad-footer">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

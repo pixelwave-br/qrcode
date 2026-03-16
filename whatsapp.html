@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Gerador de link WhatsApp com número formatado e mensagem pré-preenchida." />
+  <title>Gerador de link WhatsApp</title>
+  <link rel="icon" href="favicon.png" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=SEU-ID-ADSENSE" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="hero">
+      <p class="eyebrow">Link WhatsApp</p>
+      <h1>Gerador de link WhatsApp personalizado</h1>
+      <p class="subline">Inclua o número (sem espaços) e pré-defina a mensagem.</p>
+      <div class="hero-actions">
+        <a class="secondary" href="index.html">Voltar ao hub</a>
+      </div>
+    </header>
+
+    <div class="adsense ad-top">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+        data-ad-client="SEU-ID-ADSENSE"
+        data-ad-slot="1234567890"></ins>
+    </div>
+
+    <main class="tool-card">
+      <div class="tool-header">
+        <h2>Link pronto para usar</h2>
+        <p>Fórmula: https://wa.me/seunumerosemcaracteres?text=mensagemurlencoded</p>
+      </div>
+
+      <form id="whatsappForm" class="tool-form">
+        <div class="input-row">
+          <label for="whatsappNumber">Número (DDI + DDD + número)</label>
+          <input type="tel" id="whatsappNumber" placeholder="+5511999999999" value="+55" />
+          <small class="input-hint">Digite o número completo começando pelo DDI +55 (Brasil). O campo aceita apenas dígitos.</small>
+        </div>
+        <label class="input-label" for="whatsappMessage">Mensagem</label>
+        <textarea id="whatsappMessage" rows="3" placeholder="Olá! Quero mais informações."></textarea>
+        <button type="button" id="generateWhatsapp" class="primary">Gerar link</button>
+      </form>
+
+      <div class="tool-output">
+        <input type="text" id="whatsappOutput" readonly placeholder="Link aparecerá aqui" />
+        <button type="button" id="copyWhatsapp" class="secondary" disabled>Copiar link</button>
+      </div>
+      <p id="whatsappStatus" class="status">Informe número e mensagem para gerar.</p>
+
+      <div class="adsense ad-tool">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Link construído no cliente; nenhuma mensagem é enviada automaticamente.</p>
+      <div class="adsense ad-footer">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+          data-ad-client="SEU-ID-ADSENSE"
+          data-ad-slot="1234567890"></ins>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
